@@ -296,7 +296,7 @@ function compare() {
         document.querySelector("main").innerHTML = `
         <div class="result">
             <h1>It's a tie!</h1>
-            <p>You both picked ${checkPick(num)}!</p>
+            <p>You both picked ${checkPick(player1)}!</p>
             <p id="score">Player 1: ${player1Wins} wins, Player 2: ${player2Wins}</p>
         </div>
         `;
